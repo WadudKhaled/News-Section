@@ -1,0 +1,215 @@
+.contact-container{
+    background: #F8F8F8;
+}
+.page-title.inner.contact {
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    padding: 20px 0;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+    margin-left: 46px;
+}
+
+h1.contact-title {
+    font-family: Gotham;
+    color: #1D293F;
+    text-align: left;
+    font-size: 32px;
+
+}
+
+p.subtitle.contact {
+text-align: left;
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+
+color: #BDBDBD;
+}
+
+.register-form {
+    position: relative;
+}
+
+.register-section .title-column {
+    position: relative;
+    float: left;
+    width: 20%;
+    background-image: url(../images/icons/form-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.register-form .form-inner {
+    position: relative;
+    padding: 10px 30px 70px;
+
+    margin-left: 16px;
+}
+
+.register-form .form-group {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.register-form .form-group .icon {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+    line-height: 33px;
+    color: #aaaaaa;
+    font-size: 16px;
+    z-index: 9;
+}
+
+.register-form .form-group input[type="text"], .register-form .form-group input[type="email"], .register-form .form-group input[type="url"], .register-form .form-group input[type="number"], .register-form .form-group input[type="date"], .register-form .form-group input[type="email"], .register-form .form-group textarea, .register-form .form-group select {
+    position: relative;
+    display: block;
+    width: 100%;
+    line-height: 33px;
+    padding: 10px 20px;
+    height: 52px;
+    color: #777777;
+    font-size: 15px;
+    background-color: #ffffff;
+
+    padding-left: 50px;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+ 
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-form .form-group>input[type="email"] {
+    border-radius: 0;
+   
+    
+}
+
+.register-form .form-group textarea {
+    min-height: 140px;
+}
+
+button.btn.btn-primary.btn-block {
+    width: 150px;
+}
+
+
+.contact-left h2{
+font-weight: 500;
+font-size: 20px;
+line-height: 14px;
+letter-spacing: -0.01em;
+color: #333333;
+padding-bottom: 12px;
+}
+
+.contact-left a {
+    padding: 14px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.contact-left h2.widget-title {
+    margin: 35px 0px -20px;
+}
+
+
+
+.cta-one-container {
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 465px;
+    background: url(../images/background/Map.png) center center no-repeat;
+
+}
+
+
+.cta-title-contact{
+    font-size: 27px;
+    font-weight: 700;
+    padding: 35px;
+    margin-top: 33px;
+    color: #000;
+    text-align: center;
+}
+
+.support {
+    font-size: 32px;
+    text-align: center;
+}
+
+
+.cta-one{
+    font-weight: bold;
+    font-size: 32px;
+    color: #000000;
+    text-align: center;
+    padding: 15px;
+
+
+}
+.btn-cta-one {
+    color: #fff;
+    background-color: #2DBF78;
+    border-color: #2DBF78;
+    width: 170px;
+}
+
+.btn-cta-one:hover {
+    color: #2DBF78;
+    background-color: transparent;
+    border-color:#2DBF78;
+    width: 170px;
+}
+
+
+
+
+@media only screen and (max-width: 599px){
+
+
+.page-title.inner.contact {
+
+    overflow: hidden;
+    z-index: 1;
+ 
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: cover;
+   
+}
+
+.contact-left {
+   
+    text-align: center;
+}
+
+
+.cta-title-contact{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 35px;
+    margin-top: 33px;
+    color: #000;
+    text-align: center;
+   
+}
+
+.support {
+    font-size: 18px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+
+}

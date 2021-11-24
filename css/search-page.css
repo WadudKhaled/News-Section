@@ -1,0 +1,442 @@
+/*Inner Banner*/
+
+
+
+section.inner-banner {
+
+    background-image: url(../images/home/slider10.jpg);
+
+    /* height: 330px; */
+
+    background-position: center;
+
+}
+
+.page-title.inner {
+
+    /* margin-top: -93px; */
+
+}
+
+h1.inner-title{
+
+    position: relative;
+
+    display: block;
+
+    line-height: 1em;
+
+    font-weight: 700;
+
+    margin-bottom: 20px;
+
+    font-size:32px ;
+
+    color: white;
+
+}
+
+
+
+
+
+p.subtitle {
+
+    font-size: 18px;
+
+    color: #BDBDBD;
+
+}
+
+
+
+
+
+.search-page  > input[type="email"] {
+
+    width: 590px;
+
+    background: white;
+
+    height: 70px;
+
+    border: 1px solid #ededed;
+
+    border-radius: 8px;
+
+    padding: 27px;
+
+}
+
+
+
+.dropdown-menu {
+
+    position: absolute;
+
+    top: 100%;
+
+    left: 0;
+
+    z-index: 1000;
+
+    display: none;
+
+    float: left;
+
+    min-width: 14rem;
+
+    padding: .5rem 0;
+
+    margin: .125rem 0 0;
+
+    font-size: 1rem;
+
+    color: #212529;
+
+    text-align: left;
+
+    list-style: none;
+
+    background-color: #fff;
+
+    background-clip: padding-box;
+
+    border: 1px solid rgba(0,0,0,.15);
+
+    border-radius: 15px;
+
+}
+
+.company-profile-card {
+
+    max-width: 870px;
+
+    margin: 20px auto;
+
+    padding: 25px;
+
+    border-radius: 4px;
+
+    border: 1px solid #E4E3E2;
+
+}
+
+
+
+.profile-card-header {
+
+    height: 150px;
+
+
+
+
+
+}
+
+
+
+.profile-brand {
+
+    border: 1px solid #DEDEDE;
+
+    border-radius: 4px;
+
+    width: 145.8px;
+
+    height: 95.33px;
+
+    display: flex;
+
+    justify-content: center;
+
+
+
+
+
+}
+
+
+
+.profile-brand img {
+
+    margin: auto;
+
+    display: block;
+
+
+
+}
+
+
+
+.profile-card-title {
+
+    margin-left: 25px;
+
+    margin-top: 10px;
+
+
+
+}
+
+
+
+.profile-card-title h2 {
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+    color: #000;
+
+
+
+}
+
+
+
+
+
+
+
+hr.line {
+
+    border-top: 1px solid #EEEAEA;
+
+}
+
+
+
+.profile-card-bio {
+
+    display: flex;
+
+    justify-content: space-around;
+
+    margin-bottom: -16px;
+
+
+
+}
+
+
+
+.profile-card-bio p {
+
+    font-size: 16px;
+
+
+
+}
+
+
+
+
+
+.plus-category {
+
+    font-size: 14px;
+
+    font-weight: bold;
+
+    color: #0076FF;
+
+}
+
+
+
+.profile-bio-content p {
+
+    color: #000;
+
+    font-size: 16px;
+
+
+
+}
+
+
+
+
+
+.search-filter{
+
+    display: flex;
+
+    margin: 25px auto;
+
+}
+
+
+
+.search-filter>div{
+
+    display: flex;
+
+    justify-content: space-around;
+
+    padding: 0px 10px;
+
+}
+
+.btn-secondary {
+
+    color: #6c757d;
+
+    background-color: #fff;
+
+    border-radius: 208px;
+
+    border: 1px solid #EEEAEA;
+
+    padding: 10px 50px;
+
+}
+
+
+
+
+
+.drop-icon {
+
+    margin-left: 35px;
+
+    margin-right: -24px;
+
+}
+
+.search-page > input[type="email"] {
+
+    width: 350px;
+
+    background: white;
+
+    height: 55px;
+
+    border: 1px solid #ededed;
+
+    border-radius: 8px;
+
+    padding: 27px;
+
+}
+
+    .banner-hero {
+        position: relative;
+        padding: 130px 0px 63px 0px!important;
+        overflow: hidden;
+        margin: -25px 0px -85px;
+    }
+
+
+
+@media only screen and (max-width: 599px){
+
+    .btn-search2 {
+        margin-top: 10px;
+    }
+
+    .banner-hero {
+        position: relative;
+        padding: 130px 0px 63px 0px!important;
+        overflow: hidden;
+        margin: -25px 0px -85px;
+    }
+
+    .search-filter {
+
+        display: block;
+
+        margin: 25px auto;
+
+    }
+
+
+
+    .profile-brand{
+
+        display: none;
+
+    }
+
+    section.inner-banner {
+
+        /* height: 380px; */
+
+    }
+
+    .profile-card-title {
+
+        margin-left: 0px; 
+
+        margin-top: 10px;
+
+    }
+
+    .search-filter>div{
+
+        display: none;
+
+    }
+
+
+
+    .search-page > input[type="email"] {
+
+        width: 230px;
+
+        background: white;
+
+        height: 28px;
+
+        border: 1px solid #ededed;
+
+        border-radius: 8px;
+
+        padding: 25px;
+
+    }
+
+
+
+    .page-title h1 {
+
+        font-size: 40px;
+
+        margin-bottom: 30px;
+
+        margin-top: 30px;
+
+    }
+    .page-title {
+        padding: 80px 0!important;
+    }
+
+
+    .company-profile-card {
+
+        max-width: 870px;
+
+        padding: 25px;
+
+        border-radius: 4px;
+
+        border: 1px solid #E4E3E2;
+
+        margin-top: 4px;
+
+    }
+
+
+
+ 
+
+
+
+}
+
+
+
+
+
